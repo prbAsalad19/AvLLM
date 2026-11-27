@@ -17,7 +17,7 @@ struct TrainConfig {
     float weight_decay = 0.01f;
     float grad_clip = 1.0f;
 
-    std::size_t log_interval = 5;
+    std::size_t log_interval = 25;
     std::size_t eval_interval = 500;
     std::size_t eval_batches = 20;
     std::size_t save_interval = 2000;
